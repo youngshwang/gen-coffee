@@ -1,0 +1,19 @@
+{
+  "generator-angular-fullstack": {
+    "insertRoutes": "true",
+    "registerRoutesFile": "server/routes.coffee",
+    "routesNeedle": "# Insert routes below",
+    "insertSockets": "true",
+    "registerSocketsFile": "server/config/socketio.coffee",
+    "socketsNeedle": "# Insert sockets below",
+    "filters": {
+      "coffee": true,
+      "html": true,
+      "sass": true,
+      "uirouter": true,
+      "socketio": true,
+      "mongoose": true,
+      "auth": true
+    }
+  }
+}
